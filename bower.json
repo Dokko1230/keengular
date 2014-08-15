@@ -1,0 +1,24 @@
+{
+  "name": "keengular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Dokko1230/keengular",
+  "authors": [
+    "Sean Dokko <dokko1230@gmail.com>"
+  ],
+  "keywords": [
+    "keen",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.22",
+    "keen-js": "~3.0.7"
+  }
+}
