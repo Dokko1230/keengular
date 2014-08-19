@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "angular": "~1.2.22",
-    "keen-js": "~3.0.7"
+    "keen-js": "~3.0.7",
+    "angular-mocks": "~1.2.22"
   }
 }

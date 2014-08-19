@@ -45,6 +45,17 @@ describe('Main', function () {
       
     });
 
+    it('should add events via trackExternalLink', function () {
+      keenTrackerService.initialize(config);
+      var payload = {
+        item: "golden gadget",  
+        price: 25.50
+      };
+
+      keenTrackerService.trackExternalLink('event test', 'event test', {});
+      
+    });
+
     
   });
 
