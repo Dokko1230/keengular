@@ -59,7 +59,7 @@ describe('Main', function () {
         target: 'bar'
       };
 
-      keenTrackerService.trackExternalLink('event test', 'event test', {});
+      keenTrackerService.trackExternalLink(event, 'event test', {});
       
     });
 
