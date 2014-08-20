@@ -45,11 +45,18 @@ describe('Main', function () {
       
     });
 
+    // hmm i should probably create a dummy event with a currentTarget property
     it('should add events via trackExternalLink', function () {
       keenTrackerService.initialize(config);
       var payload = {
         item: "golden gadget",  
         price: 25.50
+      };
+
+      var event = {
+        currentTarget: 'foo',
+        srcElement: 'test',
+        target: 'bar'
       };
 
       keenTrackerService.trackExternalLink('event test', 'event test', {});
